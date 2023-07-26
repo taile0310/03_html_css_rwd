@@ -2,17 +2,12 @@
   width: 100%;
   height: 769px;
   padding: 80px 20px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 59px;
 }
 
 .introduce-title {
   width: 316px;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
 }
 
 .introduce-image {

@@ -2,8 +2,6 @@
   width: 100%;
   height: 1108px;
   padding: 80px 0px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 50px;
   align-self: stretch;
@@ -11,15 +9,10 @@
 
 .feature__title-block {
   width: 318px;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
 }
 
 .feature__content-block {
   width: 271px;
-  display: flex;
-  flex-direction: column;
   gap: 75px;
   padding: 18px 0;
 }

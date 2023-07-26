@@ -49,7 +49,15 @@
   letter-spacing: 0.2px;
 }
 
-/* btn */
+/* Link */
+.text-link {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-small);
+  line-height: var(--lh-medium);
+  letter-spacing: 0.2px;
+}
+
+/* Btn */
 .text-btn {
   font-size: var(--fs-x-large);
   font-weight: var(--fw-large);
@@ -63,3 +71,4 @@
   line-height: var(--lh-x-small);
   letter-spacing: 0.2px;
 }
+/* End Btn */

@@ -1,23 +1,16 @@
 .contact-layout {
-  display: flex;
   width: 100%;
   height: 1512px;
   padding: 149px 0px;
-  flex-direction: column;
   align-items: center;
   gap: 50px;
   background: #252b42;
 }
 
-.contact-title {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
 .social-network-items {
   display: flex;
   gap: 24px;
+  padding: 10px 10px;
 }
 
 .social-network-items > a > img {
@@ -26,8 +19,6 @@
 }
 
 .contact-address {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
   padding: 18px 0;
   width: 264px;
@@ -40,26 +31,44 @@
 
 .contact-address > div > a {
   color: var(--secondary-text-color);
+  text-align: left;
 }
 
 .contact-form {
-  display: flex;
-  padding: 52px 49px;
-  flex-direction: column;
+  padding: 130px 49px 52px;
   gap: 45px;
   background: var(--secondary-text-color);
   width: 378px;
   height: 670px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: var(--secondary-text-color);
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 }
 
 .contact-form > input {
   width: 280px;
   height: 54px;
+  padding: 19px 20px;
 }
 
 .contact-form > textarea {
   width: 280px;
   height: 193px;
+  resize: none;
+  padding: 23px 20px;
+  background: var(--bg-input);
+  border: 0;
+}
+
+.contact-form > input::placeholder,
+textarea::placeholder {
+  font-family: var(--ff-primary);
+  color: #18171d;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-small);
+  line-height: var(--lh-x-small);
+  letter-spacing: 0.1px;
 }
 
 .contact-form > button {
