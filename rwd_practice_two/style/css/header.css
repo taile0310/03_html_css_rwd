@@ -1,0 +1,25 @@
+.header-layout {
+  width: 100%;
+  padding: 17px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 78px;
+}
+
+.header-logo {
+  width: 186px;
+  height: 58px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  z-index: 1;
+}
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

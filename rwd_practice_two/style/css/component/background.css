@@ -1,0 +1,16 @@
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -99;
+
+  overflow: hidden;
+}
+
+.background-image > img {
+  width: 100%;
+  min-height: 768px;
+  max-width: 1024px;
+  height: 1px;
+}

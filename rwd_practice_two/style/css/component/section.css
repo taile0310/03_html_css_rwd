@@ -1,0 +1,18 @@
+.section--light {
+  color: var(--primary-text-color);
+  font-family: var(--ff-primary);
+  font-style: normal;
+  text-align: center;
+}
+
+.section--dark {
+  color: var(--secondary-text-color);
+  font-family: var(--ff-primary);
+  font-style: normal;
+  text-align: center;
+}
+
+.display--flex {
+  display: flex;
+  flex-direction: column;
+}

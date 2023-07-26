@@ -1,0 +1,65 @@
+/* H1 */
+.text-h1 {
+  font-size: var(--fs-huge);
+  font-weight: var(--fw-huge);
+  line-height: var(--lh-huge);
+  letter-spacing: 0.2px;
+}
+
+/* H2 */
+.text-h2 {
+  font-size: var(--fs-x-huge);
+  font-weight: var(--fw-small);
+  line-height: var(--lh-x-huge);
+  letter-spacing: 0.2px;
+  padding: 10px 10px;
+}
+
+/* H3 */
+.text-h3 {
+  font-size: var(--fs-x-large);
+  font-weight: var(--fw-large);
+  line-height: var(--lh-x-large);
+  letter-spacing: 0.1px;
+}
+
+/* H4 */
+.text-h4 {
+  font-size: var(--fs-x-medium);
+  font-weight: var(--fw-large);
+  line-height: var(--lh-x-medium);
+  letter-spacing: 0.2px;
+  padding: 10px 10px;
+}
+
+/* H5 */
+.text-h5 {
+  font-size: var(--fs-x-small);
+  font-weight: var(--fw-large);
+  line-height: var(--lh-small);
+  letter-spacing: 0.1px;
+  padding: 10px 10px;
+}
+
+/* Paragraphe */
+.text-p {
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-small);
+  line-height: var(--lh-medium);
+  letter-spacing: 0.2px;
+}
+
+/* btn */
+.text-btn {
+  font-size: var(--fs-x-large);
+  font-weight: var(--fw-large);
+  line-height: var(--lh-x-large);
+  letter-spacing: 0.1px;
+}
+
+.text-subscribe {
+  font-size: var(--fs-x-medium);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-x-small);
+  letter-spacing: 0.2px;
+}

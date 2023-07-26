@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/src/asset/font/Roboto-Regular.ttf") format("truetype");
+}
+
+:root {
+  /* Color */
+  --primary-color: #ef2779;
+  --secondary-color: #38a3f1;
+
+  --primary-text-color: #374754;
+  --secondary-text-color: #fff;
+
+  --border-input: #e8e8e8;
+  --bg-input: #f4f4f4;
+  /* End color */
+
+  /* Font-family */
+  --ff-primary: "Roboto-Regular", Arial;
+  --f-style: normal;
+  /* End font-family */
+
+  /* Font-size */
+  --fs-x-small: 12px;
+  --fs-small: 15px;
+  --fs-x-medium: 16px;
+  --fs-medium: 18px;
+  --fs-x-large: 22px;
+  --fs-large: 30px;
+  --fs-x-huge: 46px;
+  --fs-huge: 55px;
+  /* End font-size */
+
+  /* Font-weight */
+  --fw-small: 400;
+  --fw-medium: 500;
+  --fw-large: 700;
+  --fw-huge: 900;
+  /* EndFont-weight */
+
+  /* Line-height */
+  --lh-x-small: 16px;
+  --lh-small: 18px;
+  --lh-x-medium: 20px;
+  --lh-medium: 27px;
+  --lh-x-large: 33px;
+  --lh-large: 45px;
+  --lh-x-huge: 57px;
+  --lh-huge: 65.5px;
+  /* End line-height */
+}
