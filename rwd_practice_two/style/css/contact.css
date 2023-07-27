@@ -38,7 +38,8 @@
   padding: 130px 49px 52px;
   gap: 45px;
   background: var(--secondary-text-color);
-  width: 378px;
+  max-width: 378px;
+  width: 100%;
   height: 670px;
   border-radius: 20px;
   border: 1px solid #ddd;
@@ -47,13 +48,14 @@
 }
 
 .contact-form > input {
-  width: 280px;
+  max-width: 280px;
   height: 54px;
   padding: 19px 20px;
 }
 
 .contact-form > textarea {
-  width: 280px;
+  max-width: 280px;
+  width: 100%;
   height: 193px;
   resize: none;
   padding: 23px 20px;

@@ -5,6 +5,7 @@
   border-radius: 35px;
   border: 0px;
 }
+
 .btn-primary {
   background-color: var(--primary-color);
   color: var(--secondary-text-color);
@@ -15,7 +16,9 @@
   display: flex;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
-  padding: 16px 53.83px;
+  width: 100%;
+  max-width: 236px;
+  padding: 16px 0;
 }
 
 .input {
