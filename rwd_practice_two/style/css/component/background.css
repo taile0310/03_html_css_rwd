@@ -8,9 +8,19 @@
   overflow: hidden;
 }
 
-.background-image > img {
+.background-image > picture > img {
   width: 100%;
-  min-height: 768px;
+  min-height: 790px;
   max-width: 1024px;
   height: 1px;
 }
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .background-image > picture > img {
+    min-height: 790px;
+    min-width: 100%;
+    height: 1px;
+  }
+}
+/* End Desktop */

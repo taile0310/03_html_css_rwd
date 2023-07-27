@@ -5,21 +5,23 @@
   align-items: center;
   gap: 80px;
 }
+
 .testimonial-layout > button {
   width: 280px;
 }
 
 .testimonial-card {
   align-items: center;
-  gap: 44.803px;
+  gap: 44.8px;
 }
 
-.testimonial-card > img {
+.testimonial-card > picture > img {
   width: 229px;
   height: 46px;
   cursor: none;
   z-index: -1;
 }
+
 .testimonial-card > p {
   padding: 8.45px;
 }
@@ -36,3 +38,30 @@
 .items-span > span:nth-child(1) {
   padding: 1.69px 0px;
 }
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .testimonial-layout {
+    height: 758px;
+    padding: 100px 0px;
+  }
+
+  .testimonial-card {
+    align-items: center;
+    gap: 50px;
+    width: 703px;
+  }
+  .testimonial-card > picture > img {
+    width: 152px;
+    height: 50px;
+  }
+
+  .testimonial-card > img {
+    height: 46px;
+  }
+  .testimonial-card > p {
+    font-size: var(--fs-x-medium);
+    line-height: var(--lh-x-medium);
+  }
+}
+/* End Desktop */

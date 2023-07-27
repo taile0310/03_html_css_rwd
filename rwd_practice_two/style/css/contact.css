@@ -75,3 +75,147 @@ textarea::placeholder {
   width: 145px;
   padding: 18px 38px;
 }
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .contact-layout {
+    height: 794px;
+    padding: 85px 0px;
+    gap: 50px 65px;
+    background: #252b42;
+    display: grid;
+    grid-template-rows: auto 152px auto;
+    grid-template-areas:
+      "contact-title contact-title"
+      "contact-form address"
+      "contact-form social";
+  }
+  .contact-layout > div:nth-child(1) {
+    grid-area: contact-title;
+    width: 318px;
+    justify-self: center;
+  }
+
+  .contact-layout > div:nth-child(2) {
+    grid-area: social;
+    align-self: start;
+  }
+
+  .contact-layout > address:nth-child(3) {
+    grid-area: address;
+    align-self: start;
+    padding: 0;
+  }
+
+  .contact-layout > form:nth-child(4) {
+    grid-area: contact-form;
+    align-items: start;
+    padding: 79px 41px 26px;
+    justify-self: end;
+  }
+
+  .contact-form {
+    width: 401px;
+    height: 430px;
+    padding: 19px 20px;
+    gap: 31px;
+  }
+
+  .contact-form > input {
+    width: 319px;
+    height: 36px;
+    padding: 19px 13px;
+  }
+
+  .contact-form > textarea {
+    width: 319px;
+    height: 127px;
+    padding: 15px 13px;
+  }
+
+  .contact-form > input::placeholder,
+  textarea::placeholder {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .contact-form > button {
+    width: 95px;
+    padding: 18px 38px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+/* End Desktop */
+
+/* Desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact-layout {
+    height: 794px;
+    padding: 85px 0px;
+    gap: 50px 50px;
+    background: #252b42;
+    display: grid;
+    grid-template-rows: auto 152px auto;
+    grid-template-areas:
+      "contact-title contact-title"
+      "contact-form address"
+      "contact-form social";
+  }
+  .contact-layout > div:nth-child(1) {
+    grid-area: contact-title;
+    width: 318px;
+    justify-self: center;
+  }
+
+  .contact-layout > div:nth-child(2) {
+    grid-area: social;
+    align-self: start;
+  }
+
+  .contact-layout > address:nth-child(3) {
+    grid-area: address;
+    align-self: start;
+    padding: 0;
+  }
+
+  .contact-layout > form:nth-child(4) {
+    grid-area: contact-form;
+    align-items: start;
+    padding: 79px 41px 26px;
+    justify-self: end;
+  }
+
+  .contact-form {
+    width: 401px;
+    height: 430px;
+    padding: 19px 20px;
+    gap: 31px;
+  }
+
+  .contact-form > input {
+    width: 319px;
+    height: 36px;
+    padding: 19px 13px;
+  }
+
+  .contact-form > textarea {
+    width: 319px;
+    height: 127px;
+    padding: 15px 13px;
+  }
+
+  .contact-form > input::placeholder,
+  textarea::placeholder {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .contact-form > button {
+    width: 95px;
+    padding: 18px 38px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+/* End Desktop */

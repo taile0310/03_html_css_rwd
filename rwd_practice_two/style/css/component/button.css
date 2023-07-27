@@ -8,15 +8,14 @@
 .btn-primary {
   background-color: var(--primary-color);
   color: var(--secondary-text-color);
-  width: 353px;
   padding: 17px 35px;
 }
 
 .btn-secondary {
+  display: flex;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
-  width: 236px;
-  padding: 16px 0px;
+  padding: 16px 53.83px;
 }
 
 .input {

@@ -29,3 +29,45 @@
   padding: 16px 16px;
   min-width: 236px;
 }
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .partner-layout {
+    height: 1297px;
+    padding: 120px 0 80px;
+  }
+  .partner-card {
+    display: grid;
+    grid-template-columns: 238px 238px 238px;
+    justify-content: center;
+    gap: 70px 52px;
+    padding: 0;
+    width: 238px;
+  }
+  .partner-title {
+    align-items: center;
+    width: 318px;
+  }
+}
+/* End Desktop */
+
+/* Mobile */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .partner-layout {
+    gap: 72px;
+  }
+
+  .partner-card {
+    display: grid;
+    grid-template-columns: 238px 238px;
+    justify-content: center;
+    gap: 70px 80px;
+    padding: 0;
+    width: 238px;
+  }
+  .partner-title {
+    align-items: center;
+    width: 318px;
+  }
+}
+/* End Tablet */

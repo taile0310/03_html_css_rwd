@@ -20,3 +20,22 @@
 .gap--7 {
   gap: 7px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__nav-form,
+  .hero-title > h1,
+  .newsletter-layout > div > h2:nth-child(3),
+  .partner-card > li:nth-child(4),
+  li:nth-child(5),
+  li:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-menu,
+  .hero-title > h2,
+  .newsletter-layout > div > h2:nth-child(2) {
+    display: none;
+  }
+}

@@ -10,6 +10,7 @@
   gap: 50px;
   padding: 18px 0;
 }
+
 .pricing__card > li:nth-child(2) {
   color: var(--secondary-text-color);
   background: linear-gradient(40deg, #ef2779 0.79%, #7834be 79.29%);
@@ -24,12 +25,9 @@
   height: 310px;
   padding: 40px;
   gap: 30px;
-
   border-radius: 10px;
   border: 1px solid #dedede;
   background: var(--secondary-text-color);
-
-  /* SHADOW */
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -69,3 +67,24 @@
 .pricing__card-items > div > span:nth-child(2) {
   padding: 0;
 }
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .pricing-layout {
+    height: 734px;
+    padding: 100px 0;
+    align-items: center;
+  }
+
+  .pricing-layout > div {
+    width: 318px;
+  }
+
+  .pricing__card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 335px 335px 335px;
+    padding: 0;
+  }
+}
+/* End Desktop */
