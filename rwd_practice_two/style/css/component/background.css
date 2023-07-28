@@ -10,17 +10,15 @@
 
 .background-image > picture > img {
   width: 100%;
-  min-height: 790px;
+  height: 881px;
   max-width: 1024px;
-  height: 1px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1025px) {
   .background-image > picture > img {
-    min-height: 790px;
-    min-width: 100%;
-    height: 1px;
+    height: 948px;
+    max-width: 100%;
   }
 }
 /* End Desktop */
