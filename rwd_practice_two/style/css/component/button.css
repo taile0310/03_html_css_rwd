@@ -4,6 +4,7 @@
   align-items: center;
   border-radius: 35px;
   border: 0px;
+  transition: 0.6s;
 }
 
 .btn-primary {
@@ -16,9 +17,9 @@
   display: flex;
   background-color: var(--secondary-color);
   color: var(--secondary-text-color);
-  width: 100%;
-  max-width: 236px;
   padding: 16px 0;
+  max-width: 236px;
+  width: 100%;
 }
 
 .input {
@@ -29,4 +30,46 @@
   border-radius: 39px;
   border: 1px solid var(--border-input);
   background: var(--bg-input);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  box-shadow: inset -150px 0 0 0 var(--primary-color), inset 150px 0 0 0 var(--primary-color);
+}
+.pulse-btn:hover,
+.pulse-btn:focus {
+  -webkit-animation: pulse-btn 1s;
+  animation: pulse-btn 1s;
+  box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse-btn {
+  0% {
+    box-shadow: 0 0 0 0 var(--secondary-text-color);
+  }
+}
+
+@keyframes pulse-btn {
+  0% {
+    box-shadow: 0 0 0 0 var(--secondary-text-color);
+  }
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--primary-color);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--primary-color);
+  }
 }

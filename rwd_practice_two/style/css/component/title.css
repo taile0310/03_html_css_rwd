@@ -59,13 +59,7 @@
 
 /* Btn */
 .text-btn {
-  font-size: var(--fs-x-large);
-  font-weight: var(--fw-large);
-  line-height: var(--lh-x-large);
-  letter-spacing: 0.1px;
-}
-
-.text-subscribe {
+  font-family: var(--ff-primary);
   font-size: var(--fs-x-medium);
   font-weight: var(--fw-medium);
   line-height: var(--lh-x-small);

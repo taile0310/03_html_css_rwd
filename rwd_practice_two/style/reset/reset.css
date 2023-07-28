@@ -21,7 +21,9 @@ article,
 footer,
 header,
 nav,
-section {
+section,
+picture,
+textarea {
   margin: 0;
   padding: 0;
   border: 0;
