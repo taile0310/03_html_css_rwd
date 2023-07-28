@@ -19,8 +19,7 @@
 .testimonial-card > img {
   width: 229px;
   height: 46px;
-  cursor: none;
-  z-index: -1;
+  cursor: default;
 }
 
 .testimonial-card > p {
