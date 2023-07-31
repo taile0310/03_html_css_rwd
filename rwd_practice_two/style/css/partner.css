@@ -16,6 +16,10 @@
   width: 238px;
 }
 
+.partner-card > li {
+  cursor: pointer;
+}
+
 .partner__card-content {
   gap: 15px;
   align-items: center;

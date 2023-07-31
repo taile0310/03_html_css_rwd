@@ -23,6 +23,7 @@
 
 .feature__content-block > li {
   transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
 .feature__content-block > li:hover {

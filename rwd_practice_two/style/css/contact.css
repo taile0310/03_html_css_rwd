@@ -89,7 +89,7 @@ textarea::placeholder {
     gap: 50px 65px;
     background: #252b42;
     display: grid;
-    grid-template-rows: auto 152px auto;
+    grid-template-rows: auto 235.5px auto;
     grid-template-areas:
       "contact-title contact-title"
       "contact-form address"
@@ -109,7 +109,7 @@ textarea::placeholder {
 
   .contact-layout > address:nth-child(3) {
     grid-area: address;
-    align-self: start;
+    align-self: end;
     padding: 0;
   }
 
@@ -153,3 +153,11 @@ textarea::placeholder {
   }
 }
 /* End Tablet & Desktop */
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .contact-form > button {
+    padding: 12px 25px;
+  }
+}
+/* End Desktop */

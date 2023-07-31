@@ -43,19 +43,7 @@
   .header-logo {
     margin: 0px 20px;
   }
-}
-/* End Tablet & Desktop */
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .header__form {
-    display: none;
-  }
-}
-/* End Tablet */
-
-/* Desktop */
-@media screen and (min-width: 1025px) {
   .header__form {
     display: flex;
     gap: 12px;
@@ -74,4 +62,18 @@
     font-family: var(--ff-primary);
   }
 }
-/* End Desktop */
+/* End Tablet & Desktop */
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header__form {
+    display: none;
+  }
+}
+/* End Tablet */
+
+@media screen and (max-width: 1188px) {
+  .header__form {
+    display: none;
+  }
+}

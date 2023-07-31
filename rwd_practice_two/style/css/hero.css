@@ -41,7 +41,7 @@
     padding: 104px 0px;
     display: grid;
     grid-template-rows: 282px;
-    grid-template-columns: 62.5% auto;
+    grid-template-columns: 56% auto;
     grid-template-areas:
       "image title"
       "image button";
