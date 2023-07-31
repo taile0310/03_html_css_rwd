@@ -9,37 +9,13 @@
   align-items: center;
 }
 
-.partner-card {
-  gap: 30px;
-  align-items: center;
-  padding: 18px 0;
-  width: 238px;
-}
-
-.partner-card > li {
-  cursor: pointer;
-}
-
-.partner__card-content {
-  gap: 15px;
-  align-items: center;
-  transition: transform 0.2s ease;
-}
-.partner__card-content:hover {
-  transform: scale(1.1);
-}
-
-.partner__card-content > p {
-  padding: 10px 10px;
-}
-
 .partner-layout > button {
   padding: 16px 16px;
   min-width: 236px;
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .partner-layout {
     gap: 72px;
   }
@@ -61,7 +37,7 @@
 /* End Tablet */
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .partner-layout {
     padding: 120px 0 80px;
   }

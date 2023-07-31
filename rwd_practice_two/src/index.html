@@ -6,16 +6,15 @@
     <title>Figma Land</title>
     <link rel="stylesheet" href="/style/reset/reset.css" />
     <link rel="stylesheet" href="/style/main.css" />
-    <script src="/src/js/title.js"></script>
   </head>
   <body style="box-sizing: border-box">
     <header class="header-layout section--dark">
       <div class="header-logo">
         <a href="javascript:void(0)">
-          <img src="/src/asset/img/logo.png" alt="Figma Land" />
+          <img src="/asset/img/logo.png" alt="Figma Land" />
         </a>
       </div>
-      <div class="header__nav-form">
+      <div class="header__nav-form hiden-mobile">
         <nav class="nav-items">
           <a class="text-link" href="javascript:void(0)">Home</a>
           <a class="text-link" href="javascript:void(0)">Product</a>
@@ -23,15 +22,15 @@
           <a class="text-link" href="javascript:void(0)">About</a>
           <a class="text-link" href="javascript:void(0)">Contact</a>
         </nav>
-        <form class="header__form">
+        <form class="header__form hiden-mobile">
           <input class="input" type="email" placeholder="Your Email" />
           <button class="btn pulse-btn" type="submit"><span class="text-btn">Subscribe</span></button>
         </form>
       </div>
       <!-- Hamburger -->
-      <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" hidden />
-        <label class="menu__btn" for="menu__toggle">
+      <div class="hamburger-menu hiden-desktop">
+        <input class="menu__toggle" id="menu" type="checkbox" hidden />
+        <label class="menu__btn" for="menu">
           <span></span>
         </label>
         <ul class="menu__box">
@@ -49,8 +48,8 @@
       <!-- Background -->
       <div class="background-image">
         <picture>
-          <source media="(min-width:1025px)" srcset="/src/asset/img/background-hero-desktop.png" />
-          <img src="/src/asset/img/background-hero.png" alt="Background" />
+          <source media="(min-width:1025px)" srcset="/asset/img/background-hero-desktop.png" />
+          <img src="/asset/img/background-hero.png" alt="Background" />
         </picture>
       </div>
       <!-- End Background -->
@@ -58,13 +57,13 @@
       <!-- Hero -->
       <section class="display--flex hero-layout section--dark">
         <div class="display--flex hero-title gap--7">
-          <h1 class="text-h1">We focus on ergonomics</h1>
-          <h2 class="text-h2">Lightning fast prototyping</h2>
+          <h1 class="text-h1 hiden-mobile">We focus on ergonomics</h1>
+          <h2 class="text-h2 hiden-desktop">Lightning fast prototyping</h2>
           <h4 class="text-h4">Most calendars are designed for teams. Slate is designed for freelancers</h4>
         </div>
         <picture>
-          <source media="(min-width: 1025px)" srcset="/src/asset/img/hero-browser.jpg" />
-          <img class="hero-image" src="/src/asset/img/hero-browser-mobile.jpg" alt="Hero Mark" />
+          <source media="(min-width: 1025px)" srcset="/asset/img/hero-browser.jpg" />
+          <img class="hero-image" src="/asset/img/hero-browser-mobile.jpg" alt="Hero Mark" />
         </picture>
         <button class="btn text-h3 btn-secondary" type="submit">Try For Free</button>
       </section>
@@ -81,8 +80,8 @@
           <li>
             <div class="item-block">
               <picture>
-                <source media="(min-width: 1025px)" srcset="/src/asset/img/feature-icon-1.jpg" />
-                <img src="/src/asset/img/feature-icon.jpg" alt="Feature Icon" />
+                <source media="(min-width: 1025px)" srcset="/asset/img/feature-icon-1.jpg" />
+                <img src="/asset/img/feature-icon.jpg" alt="Feature Icon" />
               </picture>
               <h3 class="text-h3">The best products start with Sketch</h3>
             </div>
@@ -91,8 +90,8 @@
           <li>
             <div class="item-block">
               <picture>
-                <source media="(min-width: 1025px)" srcset="/src/asset/img/feature-icon-2.jpg" />
-                <img src="/src/asset/img/feature-icon.jpg" alt="Feature Icon" />
+                <source media="(min-width: 1025px)" srcset="/asset/img/feature-icon-2.jpg" />
+                <img src="/asset/img/feature-icon.jpg" alt="Feature Icon" />
               </picture>
               <h3 class="text-h3">Fastest way to organize</h3>
             </div>
@@ -100,7 +99,7 @@
           </li>
           <li>
             <div class="item-block">
-              <img src="/src/asset/img/feature-icon.jpg" alt="Feature Icon" />
+              <img src="/asset/img/feature-icon.jpg" alt="Feature Icon" />
               <h3 class="text-h3">Work better together</h3>
             </div>
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal.</p>
@@ -117,8 +116,8 @@
         </div>
         <button class="btn text-h3 btn-secondary introduce-btn" type="submit">Try For Free</button>
         <picture>
-          <source media="(min-width: 1025px)" srcset="/src/asset/img/macbook-pro-desktop.png" />
-          <img class="introduce-image" src="/src/asset/img/macbook-pro.png" alt="Macbook Pro" />
+          <source media="(min-width: 1025px)" srcset="/asset/img/macbook-pro-desktop.png" />
+          <img class="introduce-image" src="/asset/img/macbook-pro.png" alt="Macbook Pro" />
         </picture>
       </section>
       <!-- End Lightning -->
@@ -127,8 +126,8 @@
       <section class="display--flex newsletter-layout section--dark">
         <div class="display--flex gap--7">
           <h3 class="text-h3">At your fingertips</h3>
-          <h2 class="text-h2">Newsletter</h2>
-          <h2 class="text-h2">Lightning fast prototyping</h2>
+          <h2 class="text-h2 hiden-desktop">Newsletter</h2>
+          <h2 class="text-h2 hiden mobile">Lightning fast prototyping</h2>
         </div>
         <form class="display--flex form-subscribe">
           <h3 class="text-h3">Subscribe to our Newsletter</h3>
@@ -150,32 +149,32 @@
         <ul class="display--flex partner-card">
           <li class="display--flex partner__card-content">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/apiary.svg" alt="Apiary Icon" />
+            <img src="/asset/apiary.svg" alt="Apiary Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
           <li class="display--flex partner__card-content">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/android.svg" alt="Android Icon" />
+            <img src="/asset/android.svg" alt="Android Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
           <li class="display--flex partner__card-content">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/basecamp.svg" alt="Basecamp Icon" />
+            <img src="/asset/basecamp.svg" alt="Basecamp Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
-          <li class="display--flex partner__card-content">
+          <li class="display--flex partner__card-content hiden-mobile">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/basecamp.svg" alt="Basecamp Icon" />
+            <img src="/asset/basecamp.svg" alt="Basecamp Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
-          <li class="display--flex partner__card-content">
+          <li class="display--flex partner__card-content hiden-mobile">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/airbnb.svg" alt="Basecamp Icon" />
+            <img src="/asset/airbnb.svg" alt="Basecamp Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
-          <li class="display--flex partner__card-content">
+          <li class="display--flex partner__card-content hiden-mobile">
             <h5 class="text-h5">Client Name</h5>
-            <img src="/src/asset/app-store.svg" alt="Basecamp Icon" />
+            <img src="/asset/app-store.svg" alt="Basecamp Icon" />
             <p class="text-p">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
           </li>
         </ul>
@@ -187,12 +186,12 @@
       <section class="display--flex testimonial-layout section--light">
         <h2 class="text-h2">Testimonials</h2>
         <div class="display--flex testimonial-card">
-          <img src="/src/asset/img/dropbox.png" alt="Dropbox" />
+          <img src="/asset/img/dropbox.png" alt="Dropbox" />
           <p class="text-h4">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
           <div class="testimonial__card-items">
             <picture>
-              <source media="(min-width: 1025px)" srcset="/src/asset/img/avatar-desktop.jpg" />
-              <img src="/src/asset/img/avatar.jpg" alt="Avatar" />
+              <source media="(min-width: 1025px)" srcset="/asset/img/avatar-desktop.jpg" />
+              <img src="/asset/img/avatar.jpg" alt="Avatar" />
             </picture>
             <div class="display--flex items-span">
               <span class="text-h5">Organize across</span>
@@ -217,7 +216,8 @@
               <h5 class="text-h5">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card-items">
-              <span class="text-h1 price">10</span>
+              <span class="text-h1 hiden-desktop">10</span>
+              <span class="text-h1 hiden-mobile">0</span>
               <div class="display--flex">
                 <span class="text-h3">$</span>
                 <span class="text-h5">Per Month</span>
@@ -227,7 +227,8 @@
           </li>
           <li class="display--flex pricing__card-content">
             <div class="display--flex pricing__card-title">
-              <h3 class="text-h3">Free</h3>
+              <h3 class="text-h3 hiden-desktop">Free</h3>
+              <h3 class="text-h3 hiden-mobile">STANDARD</h3>
               <h5 class="text-h5">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card-items">
@@ -241,11 +242,13 @@
           </li>
           <li class="display--flex pricing__card-content">
             <div class="display--flex pricing__card-title">
-              <h3 class="text-h3">Free</h3>
+              <h3 class="text-h3 hiden-desktop">Free</h3>
+              <h3 class="text-h3 hiden-mobile">BUSINESS</h3>
               <h5 class="text-h5">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card-items">
-              <span class="text-h1 price">10</span>
+              <span class="text-h1 hiden-desktop">10</span>
+              <span class="text-h1 hiden-mobile">99</span>
               <div class="display--flex">
                 <span class="text-h3">$</span>
                 <span class="text-h5">Per Month</span>
@@ -263,28 +266,28 @@
           <h2 class="text-h2">Contact Us</h2>
           <h4 class="text-h4">Most calendars are designed for teams. Slate is designed for freelancers</h4>
         </div>
-        <div class="social-network-items">
+        <div class="social social--padding">
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/twitter.svg" alt="Twitter" />
+            <img class="pulse social--wh" src="/asset/twitter.svg" alt="Twitter" />
           </a>
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/facebook.svg" alt="Facebook" />
+            <img class="pulse social--wh" src="/asset/facebook.svg" alt="Facebook" />
           </a>
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/linked-in.svg" alt="Linked In" />
+            <img class="pulse social--wh" src="/asset/linked-in.svg" alt="Linked In" />
           </a>
         </div>
         <address class="display--flex contact-address">
           <div>
-            <img src="/src/asset/location.svg" alt="Location" />
+            <img src="/asset/location.svg" alt="Location" />
             <a class="text-h5" href="">6386 Spring St undefined Anchorage, Georgia 12473 United States</a>
           </div>
           <div>
-            <img src="/src/asset/phone.svg" alt="Phone" />
+            <img src="/asset/phone.svg" alt="Phone" />
             <a class="text-h5" href="tel:(843)5550130">(843) 555-0130</a>
           </div>
           <div>
-            <img src="/src/asset/email.svg" alt="Email" />
+            <img src="/asset/email.svg" alt="Email" />
             <a class="text-h5" href="mailto:willie.jennings@example.com">willie.jennings@example.com</a>
           </div>
         </address>
@@ -315,27 +318,27 @@
       <div class="display--flex footer-address-link">
         <address class="display--flex footer-address">
           <div>
-            <img src="/src/asset/location.svg" alt="Location" />
+            <img src="/asset/location.svg" alt="Location" />
             <a class="text-h5" href="javascript:void(0)">6386 Spring St undefined Anchorage, Georgia 12473 United States</a>
           </div>
           <div>
-            <img src="/src/asset/phone.svg" alt="Phone" />
+            <img src="/asset/phone.svg" alt="Phone" />
             <a class="text-h5" href="tel:(843)5550130">(843) 555-0130</a>
           </div>
           <div>
-            <img src="/src/asset/email.svg" alt="Email" />
+            <img src="/asset/email.svg" alt="Email" />
             <a class="text-h5" href="mailto:willie.jennings@example.com">willie.jennings@example.com</a>
           </div>
         </address>
-        <div class="footer__social-network">
+        <div class="social">
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/twitter.svg" alt="Twitter" />
+            <img class="pulse social--wh" src="/asset/twitter.svg" alt="Twitter" />
           </a>
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/facebook.svg" alt="Facebook" />
+            <img class="pulse social--wh" src="/asset/facebook.svg" alt="Facebook" />
           </a>
           <a href="javascript:void(0)">
-            <img class="pulse" src="/src/asset/linked-in.svg" alt="Linked In" />
+            <img class="pulse social--wh" src="/asset/linked-in.svg" alt="Linked In" />
           </a>
         </div>
       </div>

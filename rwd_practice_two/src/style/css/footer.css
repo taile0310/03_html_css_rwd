@@ -40,17 +40,6 @@
   text-align: left;
 }
 
-.footer__social-network {
-  display: flex;
-  gap: 24px;
-  height: 41px;
-}
-
-.footer__social-network > a > img {
-  width: 41px;
-  height: 41px;
-}
-
 .footer-map {
   border-radius: 22px;
   width: 100%;
@@ -71,7 +60,7 @@
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .footer-layout {
     gap: 55px;
     display: grid;
@@ -107,7 +96,7 @@
 /* End Tablet */
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .footer-layout {
     gap: 55px;
     flex-direction: row;

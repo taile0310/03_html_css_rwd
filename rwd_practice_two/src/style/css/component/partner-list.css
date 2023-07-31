@@ -1,0 +1,22 @@
+.partner-card {
+  gap: 30px;
+  align-items: center;
+  padding: 18px 0;
+  width: 238px;
+}
+
+.partner-card > li {
+  cursor: pointer;
+}
+.partner__card-content {
+  gap: 15px;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+.partner__card-content:hover {
+  transform: scale(1.1);
+}
+
+.partner__card-content > p {
+  padding: 10px 10px;
+}

@@ -52,7 +52,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .testimonial-layout {
     padding: 100px 0px;
   }

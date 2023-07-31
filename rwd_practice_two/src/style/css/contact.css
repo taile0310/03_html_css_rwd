@@ -6,16 +6,8 @@
   background: #252b42;
 }
 
-.social-network-items {
-  display: flex;
-  gap: 24px;
+.social--padding {
   padding: 10px 10px;
-  height: 61px;
-}
-
-.social-network-items > a > img {
-  width: 41px;
-  height: 41px;
 }
 
 .contact-address {
@@ -36,19 +28,6 @@
 .contact-address > div > a {
   color: var(--secondary-text-color);
   text-align: left;
-}
-
-.contact-form {
-  padding: 130px 49px 52px;
-  gap: 45px;
-  background: var(--secondary-text-color);
-  max-width: 378px;
-  width: 100%;
-  height: 670px;
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  background: var(--secondary-text-color);
-  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 }
 
 .contact-form > input {
@@ -83,7 +62,7 @@ textarea::placeholder {
 }
 
 /* Tablet & Desktop */
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .contact-layout {
     padding: 85px 0px;
     gap: 50px 65px;
@@ -157,7 +136,7 @@ textarea::placeholder {
 /* End Tablet & Desktop */
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .contact-form > button {
     padding: 12px 25px;
   }

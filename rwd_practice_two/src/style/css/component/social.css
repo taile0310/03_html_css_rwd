@@ -1,0 +1,9 @@
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+.social--wh {
+  height: 41px;
+  width: 41px;
+}

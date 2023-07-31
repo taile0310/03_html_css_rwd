@@ -1,14 +1,14 @@
-#menu__toggle {
+.menu__toggle {
   opacity: 0;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
+.menu__toggle:checked ~ .menu__btn > span {
   top: 0;
   right: 0;
   transform: rotate(-90deg);
 }
 
-#menu__toggle:checked ~ .menu__box {
+.menu__toggle:checked ~ .menu__box {
   visibility: visible;
   right: 0;
 }
