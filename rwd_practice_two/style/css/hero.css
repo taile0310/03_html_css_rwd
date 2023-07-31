@@ -53,13 +53,20 @@
     align-self: end;
   }
 
+  .hero-layout > div > h4 {
+    text-align: start;
+  }
+
   .hero-layout > picture {
     grid-area: image;
+    padding-right: 26.5px;
   }
 
   .hero-layout > button {
     grid-area: button;
     align-self: start;
+    background-color: var(--secondary-text-color);
+    color: var(--secondary-color);
   }
 
   .hero-layout > div > h2 {

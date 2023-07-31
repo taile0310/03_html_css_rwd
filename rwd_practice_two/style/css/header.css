@@ -36,6 +36,13 @@
     gap: 21px;
     align-items: center;
   }
+  .nav-items > a {
+    padding: 10px;
+  }
+
+  .header-logo {
+    margin: 0px 20px;
+  }
 }
 /* End Tablet & Desktop */
 
