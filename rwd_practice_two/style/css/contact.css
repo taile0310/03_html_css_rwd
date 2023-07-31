@@ -114,6 +114,7 @@ textarea::placeholder {
   }
 
   .contact-layout > form:nth-child(4) {
+    min-width: 401px;
     grid-area: contact-form;
     align-items: start;
     padding: 79px 41px 26px;
@@ -121,7 +122,6 @@ textarea::placeholder {
   }
 
   .contact-form {
-    width: 401px;
     height: 430px;
     padding: 19px 20px;
     gap: 31px;
