@@ -14,6 +14,12 @@
 .testimonial-card {
   align-items: center;
   gap: 45px;
+  padding: 15px 0;
+}
+
+.testimonial-card > p {
+  font-size: 13.5px;
+  line-height: 17px;
 }
 
 .testimonial-card > img {
@@ -55,10 +61,13 @@
     align-items: center;
     gap: 50px;
     width: 703px;
+    padding: 0;
   }
 
   .testimonial-card > p {
     padding: 10px;
+    font-size: var(--fs-x-medium);
+    line-height: var(--lh-x-medium);
   }
 
   .testimonial__card-items {

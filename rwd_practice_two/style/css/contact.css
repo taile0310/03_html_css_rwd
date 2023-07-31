@@ -128,13 +128,15 @@ textarea::placeholder {
   }
 
   .contact-form > input {
-    width: 319px;
+    min-width: 319px;
+    width: 100%;
     height: 36px;
     padding: 19px 13px;
   }
 
   .contact-form > textarea {
-    width: 319px;
+    min-width: 319px;
+    width: 100%;
     height: 127px;
     padding: 15px 13px;
   }
