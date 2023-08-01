@@ -14,12 +14,6 @@
 }
 
 @media (min-width: 768px) {
-  .hamburger-menu,
-  .hero-title > h2,
-  .newsletter-layout > div > h2:nth-child(2) {
-    display: none;
-  }
-
   .hiden-desktop {
     display: none;
   }
