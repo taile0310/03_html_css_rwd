@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 767px) {
-  .hiden-mobile {
+  .hidden-mobile {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  .hiden-desktop {
+  .hidden-desktop {
     display: none;
   }
 }
