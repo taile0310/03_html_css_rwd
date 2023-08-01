@@ -1,6 +1,7 @@
 @import url("variable/variable.css");
+@import url("/style/base/base.css");
+@import url("/style/util/util.css");
 @import url("/style/css/component/hamburger-menu.css");
-@import url("/style/css/component/hiden.css");
 @import url("/style/css/component/nav.css");
 @import url("/style/css/component/form-subscibe.css");
 @import url("/style/css/component/feature-list.css");
@@ -9,9 +10,9 @@
 @import url("/style/css/component/form-contact.css");
 @import url("/style/css/component/social.css");
 @import url("/style/css/component/title.css");
-@import url("/style/css/component/section.css");
 @import url("/style/css/component/button.css");
 @import url("/style/css/component/background.css");
+@import url("/style/css/component/input.css");
 @import url("/style/css/header.css");
 @import url("/style/css/hero.css");
 @import url("/style/css/feature.css");

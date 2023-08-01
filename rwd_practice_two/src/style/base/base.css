@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-style: normal;
+  text-align: center;
+}
+
+.section--light {
+  color: var(--primary-text-color);
+}
+
+.section--dark {
+  color: var(--secondary-text-color);
+}
