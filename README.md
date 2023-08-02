@@ -31,8 +31,10 @@
             |-- assets
                 |-- img
             |-- style
-                |-- css
-                    |-- component
+                |-- base
+                    |-- base.css
+                |-- component
+                    |-- common
                         |-- background.css
                         |-- button.css
                         |-- feature-list.css
@@ -46,6 +48,7 @@
                         |-- section.css
                         |-- social.css
                         |-- title.css
+                        |-- common.css
                     |-- contact.css
                     |-- feature.css
                     |-- footer.css
@@ -56,12 +59,26 @@
                     |-- partner.css
                     |-- pricing.css
                     |-- testimonials.css
-                    |-- reset
-                        |-- reset.css
-                    |-- variable
-                        |-- variable.css
-                    |-- main.css
-                |-- index.html
+                |-- reset
+                    |-- reset.css
+                |-- variable
+                    |-- variable.css
+                |-- layout
+                    |-- contact.css
+                    |-- feature.css
+                    |-- footer.css
+                    |-- header.css
+                    |-- hero.css
+                    |-- introduce-product.css
+                    |-- newsletter.css
+                    |-- partner.css
+                    |-- pricing.css
+                    |-- testimonials.css
+                    |-- layout.css
+                |-- util
+                    |-- util.css
+                |-- main.css
+            |-- index.html
 |-- README.md
 ```
 
@@ -114,5 +131,5 @@ vercel --prod
 - Step 03: Access domains:
 
 ```
-https://project-figma-land.vercel.app/
+https://figmaland-iota.vercel.app
 ```

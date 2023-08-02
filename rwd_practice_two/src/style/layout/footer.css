@@ -1,0 +1,32 @@
+.footer-layout {
+  width: 100%;
+  gap: 55px;
+  align-items: center;
+  padding: 126px 30px;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-layout {
+    gap: 55px;
+    display: grid;
+    grid-template-rows: 247px 267px;
+    grid-template-areas:
+      "map map"
+      "link-page social";
+    padding: 120px 50px;
+    justify-content: center;
+  }
+}
+/* End Tablet */
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .footer-layout {
+    gap: 55px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 120px 50px;
+  }
+}
+/* End Desktop */

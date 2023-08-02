@@ -1,0 +1,17 @@
+.partner-title {
+  align-items: center;
+}
+
+.partner-layout > button {
+  padding: 16px 16px;
+  min-width: 236px;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  .partner-title {
+    align-items: center;
+    width: 318px;
+  }
+}
+/* End Tablet & Desktop */

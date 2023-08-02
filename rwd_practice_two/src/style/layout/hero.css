@@ -6,34 +6,6 @@
   background-size: cover;
 }
 
-.hero-image {
-  width: 379px;
-  height: 221px;
-  border: 0;
-  border-radius: 8px;
-  max-width: 100%;
-}
-
-.hero-title {
-  width: 316px;
-}
-
-.hero-title > h4 {
-  padding: 10px 10px;
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .hero-image {
-    padding: 27px 0px;
-  }
-
-  .hero-title {
-    width: auto;
-  }
-}
-/* End Tablet */
-
 /* Desktop */
 @media (min-width: 1025px) {
   .hero-layout {
@@ -72,16 +44,4 @@
   .hero-layout > div > h2 {
     display: none;
   }
-
-  .hero-image {
-    width: 100%;
-    height: 580px;
-    padding: 27px 0px;
-  }
-
-  .hero-title > h1 {
-    text-align: start;
-    padding: 10px 0;
-  }
 }
-/* End Desktop */

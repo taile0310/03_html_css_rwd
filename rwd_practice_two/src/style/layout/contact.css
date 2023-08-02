@@ -1,0 +1,47 @@
+.contact-layout {
+  width: 100%;
+  padding: 149px 0px;
+  align-items: center;
+  gap: 50px;
+  background: #252b42;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  .contact-layout {
+    padding: 85px 0px;
+    gap: 50px 65px;
+    background: #252b42;
+    display: grid;
+    grid-template-rows: auto 235.5px auto;
+    grid-template-areas:
+      "contact-title contact-title"
+      "contact-form address"
+      "contact-form social";
+  }
+
+  .contact-layout > div:nth-child(1) {
+    grid-area: contact-title;
+    justify-self: center;
+    width: 318px;
+  }
+
+  .contact-layout > div:nth-child(2) {
+    grid-area: social;
+    align-self: start;
+  }
+
+  .contact-layout > address:nth-child(3) {
+    grid-area: address;
+    align-self: end;
+    padding: 0;
+  }
+
+  .contact-layout > form:nth-child(4) {
+    min-width: 401px;
+    grid-area: contact-form;
+    align-items: start;
+    padding: 79px 41px 26px;
+    justify-self: end;
+  }
+}

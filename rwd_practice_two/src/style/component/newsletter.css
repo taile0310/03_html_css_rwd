@@ -1,0 +1,17 @@
+.form-subscribe {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 373px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.items-subscribe {
+  gap: 12px;
+  padding: 24px 0;
+}
+
+.items-subscribe > input {
+  padding: 19px 35px;
+}

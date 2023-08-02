@@ -1,0 +1,32 @@
+.testimonial__card-items {
+  display: flex;
+  gap: 11px;
+  height: 43px;
+}
+
+.testimonial__card-items > picture > img {
+  width: 43px;
+  height: 43px;
+}
+
+.items-span {
+  text-align: left;
+}
+
+.items-span > span:nth-child(1) {
+  padding: 1.7px 0px;
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .testimonial__card-items {
+    display: flex;
+    gap: 11px;
+    height: 50px;
+  }
+  .testimonial__card-items > picture > img {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* End Desktop */

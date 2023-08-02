@@ -1,0 +1,45 @@
+.pricing__card-content > button {
+  max-width: 255px;
+  width: 100%;
+  padding: 18px 38px;
+  font-size: var(--fs-x-medium);
+  line-height: var(--lh-x-small);
+  font-weight: var(--fw-medium);
+}
+
+.pricing__card-title {
+  align-items: flex-start;
+}
+
+.pricing__card-title > h3 {
+  padding: 3px 0;
+}
+
+.pricing__card-title > h5 {
+  padding: 0;
+}
+
+.pricing__card-items {
+  display: flex;
+  height: 61px;
+}
+
+.pricing__card-items > span {
+  padding: 0 10px;
+}
+
+.pricing__card-items > div {
+  text-align: left;
+}
+
+.pricing__card-items > div > span:nth-child(2) {
+  padding: 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pricing-layout {
+    height: auto;
+  }
+}
+/* End Tablet */

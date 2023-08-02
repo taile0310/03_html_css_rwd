@@ -1,16 +1,7 @@
-.header-layout {
-  width: 100%;
-  padding: 17px 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header-logo {
   width: 206px;
   height: 78px;
   flex-shrink: 1;
-  z-index: 1;
 }
 
 .nav-items > a:hover {
@@ -19,12 +10,6 @@
 
 /* Tablet & Desktop */
 @media (min-width: 768px) {
-  .header-layout {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px 40px 40px 20px;
-  }
-
   .header-logo {
     margin: 0px 20px;
   }

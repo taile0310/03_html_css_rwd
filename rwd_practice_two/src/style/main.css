@@ -1,25 +1,21 @@
 @import url("variable/variable.css");
 @import url("/style/base/base.css");
-@import url("/style/css/component/hamburger-menu.css");
-@import url("/style/css/component/nav.css");
-@import url("/style/css/component/form-subscibe.css");
-@import url("/style/css/component/feature-list.css");
-@import url("/style/css/component/partner-list.css");
-@import url("/style/css/component/pricing-card.css");
-@import url("/style/css/component/form-contact.css");
-@import url("/style/css/component/social.css");
-@import url("/style/css/component/title.css");
-@import url("/style/css/component/button.css");
-@import url("/style/css/component/background.css");
-@import url("/style/css/component/input.css");
 @import url("/style/util/util.css");
-@import url("/style/css/header.css");
-@import url("/style/css/hero.css");
-@import url("/style/css/feature.css");
-@import url("/style/css/introduce-product.css");
-@import url("/style/css/newsletter.css");
-@import url("/style/css/partner.css");
-@import url("/style/css/testimonials.css");
-@import url("/style/css/pricing.css");
-@import url("/style/css/contact.css");
-@import url("/style/css/footer.css");
+
+/* Commond */
+@import url("/style/component/common/commond.css");
+
+/* Component */
+@import url("/style/component/header.css");
+@import url("/style/component/hero.css");
+@import url("/style/component/feature.css");
+@import url("/style/component/introduce-product.css");
+@import url("/style/component/newsletter.css");
+@import url("/style/component/partner.css");
+@import url("/style/component/testimonials.css");
+@import url("/style/component/pricing.css");
+@import url("/style/component/contact.css");
+@import url("/style/component/footer.css");
+
+/* layout */
+@import url("/style//layout/layout.css");
