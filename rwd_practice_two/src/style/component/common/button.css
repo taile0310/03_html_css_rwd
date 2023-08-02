@@ -25,6 +25,7 @@
 .btn-secondary:hover,
 .btn-secondary:focus {
   box-shadow: inset -150px 0 0 0 var(--primary-color), inset 150px 0 0 0 var(--primary-color);
+  color: var(--secondary-text-color);
 }
 .pulse-btn:hover,
 .pulse-btn:focus {
