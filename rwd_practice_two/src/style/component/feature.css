@@ -2,6 +2,26 @@
   width: 318px;
 }
 
+.item-block {
+  display: flex;
+  align-items: center;
+}
+
+.item-block > picture {
+  min-height: 43px;
+  min-width: 43px;
+  border-radius: 50px;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-block > h3 {
+  padding: 10px 10px;
+  text-align: left;
+}
+
 /* Desktop */
 @media (min-width: 1025px) {
   .feature__content-block {

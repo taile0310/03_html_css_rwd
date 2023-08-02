@@ -17,19 +17,3 @@
 .feature__content-block > li:hover {
   transform: scale(1.1);
 }
-
-.item-block {
-  display: flex;
-  align-items: center;
-}
-
-.item-block > img,
-.item-block > picture > img {
-  width: 43px;
-  height: 43px;
-}
-
-.item-block > h3 {
-  padding: 10px 10px;
-  text-align: left;
-}

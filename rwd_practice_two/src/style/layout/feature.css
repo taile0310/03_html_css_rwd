@@ -10,7 +10,6 @@
 @media (min-width: 1025px) {
   .feature-layout {
     width: 100%;
-    height: 611px;
     gap: 80px;
   }
 }

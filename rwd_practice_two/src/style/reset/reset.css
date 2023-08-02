@@ -58,6 +58,7 @@ li {
 a {
   text-decoration: none;
   color: var(--secondary-text-color);
+  display: inline-block;
 }
 
 input:focus,

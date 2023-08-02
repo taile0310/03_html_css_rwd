@@ -4,6 +4,10 @@
   flex-shrink: 1;
 }
 
+.header-logo > a {
+  height: 100%;
+}
+
 .nav-items > a:hover {
   color: var(--primary-color);
 }
