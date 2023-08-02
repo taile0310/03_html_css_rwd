@@ -30,32 +30,38 @@
     |-- src
             |-- assets
                 |-- img
-            |-- js
-                |-- title.js
-    |-- style
-        |-- css
-            |-- component
-                |-- background.css
-                |-- button.css
-                |-- hamburger-menu.css
-                |-- section.css
-                |-- title.css
-            |-- contact.css
-            |-- feature.css
-            |-- footer.css
-            |-- header.css
-            |-- hero.css
-            |-- introduce-product.css
-            |-- newsletter.css
-            |-- partner.css
-            |-- pricing.css
-            |-- testimonials.css
-        |-- reset
-            |-- reset.css
-        |-- variable
-            |-- variable.css
-        |-- main.css
-    |-- index.html
+            |-- style
+                |-- css
+                    |-- component
+                        |-- background.css
+                        |-- button.css
+                        |-- feature-list.css
+                        |-- form-contact.css
+                        |-- form-subscribe.css
+                        |-- hamburger-menu.css
+                        |-- hiden.css
+                        |-- nav.css
+                        |-- partner-list.css
+                        |-- pricing-card.css
+                        |-- section.css
+                        |-- social.css
+                        |-- title.css
+                    |-- contact.css
+                    |-- feature.css
+                    |-- footer.css
+                    |-- header.css
+                    |-- hero.css
+                    |-- introduce-product.css
+                    |-- newsletter.css
+                    |-- partner.css
+                    |-- pricing.css
+                    |-- testimonials.css
+                    |-- reset
+                        |-- reset.css
+                    |-- variable
+                        |-- variable.css
+                    |-- main.css
+                |-- index.html
 |-- README.md
 ```
 
